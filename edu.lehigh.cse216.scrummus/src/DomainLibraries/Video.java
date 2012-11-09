@@ -9,5 +9,5 @@ package DomainLibraries;
  * @author Skullum
  */
 public class Video {
-    
+    int stuff;
 }

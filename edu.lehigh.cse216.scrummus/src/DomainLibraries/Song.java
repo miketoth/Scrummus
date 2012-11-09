@@ -4,6 +4,8 @@
  */
 package DomainLibraries;
 
+import java.util.Date;
+
 /**
  *
  * @author zachdaniels
@@ -14,7 +16,12 @@ public class Song extends Media {
     private String lyrics;
     private int albumNumber;
     
-    public Song(String artist, String album, String lyrics, int albumNumber){
+    public Song(){
+        super();
+    }
+    
+    public Song(String name, int duration, int playCount, String filePath, String image, String encoding, String comment, int id, int fileSize, int year, Date dateAdded, String genre, String artist, String album, String lyrics, int albumNumber){
+        super(name, duration, playCount, filePath, image, encoding, comment, id, fileSize, year, dateAdded, genre);
         this.artist = artist;
         this.album = album;
         this.lyrics = lyrics;

@@ -15,6 +15,8 @@ public class Song extends Media {
     private String album;
     private String lyrics;
     private int albumNumber;
+
+    
     
     public Song(){
         super();
@@ -62,7 +64,8 @@ public class Song extends Media {
     }
     
     @Override
-    public String toString(){
-        return "artist: " + artist + "album: " + album + "lyrics: " + lyrics + "album number:" + albumNumber + super.toString();
+    public String toString() {
+        return "Song{" + "artist=" + artist + ", album=" + album + ", lyrics=" + lyrics + ", albumNumber=" + albumNumber + '}';
     }
+
 }

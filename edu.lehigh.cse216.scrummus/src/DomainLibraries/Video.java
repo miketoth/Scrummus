@@ -12,9 +12,7 @@ import java.util.Date;
  */
 public class Video extends Media {
 
-    
-
-    
+       
     private int quality;
     private String type;
     private String author;
@@ -40,15 +38,6 @@ public class Video extends Media {
         this.episode = episode;
     }
     
-    /**
-     * 
-     * @return 
-     */
-    @Override
-    public String toString(){
-        return "Video: " + super.toString() + " quality: " + quality + " type: " + type + " author" 
-                + author + " season: " + season + " episode: " + episode;
-    }
     
     /**
      * Getters and Setters
@@ -91,5 +80,10 @@ public class Video extends Media {
 
     public void setEpisode(int episode) {
         this.episode = episode;
+    }
+    
+    @Override
+    public String toString() {
+        return "Video{" + "quality=" + quality + ", type=" + type + ", author=" + author + ", season=" + season + ", episode=" + episode + '}';
     }
 } 

@@ -9,6 +9,9 @@ package DomainLibraries;
  * @author Skullum
  */
 public class Library {
+    
+    private String name;
+    private int size;
 
     public Library(){
         name = "Default";
@@ -19,15 +22,7 @@ public class Library {
         this.name = name;
         this.size = size;
     }
-    
-    private String name;
-    private int size;
-    
-    @Override
-    public String toString(){
-        return " Library: " + "name: " + name + " size: " + size; 
-    }
-    
+      
     
     /**
      * Getters and Setters
@@ -47,6 +42,11 @@ public class Library {
 
     public void setSize(int size) {
         this.size = size;
+    }
+    
+    @Override
+    public String toString() {
+        return "Library{" + "name=" + name + ", size=" + size + '}';
     }
     
 }

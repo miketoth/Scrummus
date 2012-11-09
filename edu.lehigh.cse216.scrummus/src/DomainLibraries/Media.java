@@ -17,6 +17,8 @@ import java.util.Date; // deprecated. Replace with Calendar, later
  */
 public abstract class Media {
 
+    
+
 
     
     private String name;
@@ -50,13 +52,6 @@ public abstract class Media {
         this.year = year;
         this.dateAdded = dateAdded;
         this.genre = genre;
-    }
-    
-    @Override
-    public String toString(){
-        return "name: " + name + " duration: " + duration + " Play Count: " + playCount
-                + " File Path: " + filePath + " Image Path: " + image + " Encoding: " + encoding + " Comment: " + comment + " ID: " + id +
-                " File Size: " + fileSize + " year: " + year + " Date Added: " + dateAdded + " Genre: " + genre;
     }
     
     /**
@@ -156,6 +151,11 @@ public abstract class Media {
 
     public void setGenre(String genre) {
         this.genre = genre;
+    }
+    
+    @Override
+    public String toString() {
+        return "Media{" + "name=" + name + ", duration=" + duration + ", playCount=" + playCount + ", filePath=" + filePath + ", image=" + image + ", encoding=" + encoding + ", comment=" + comment + ", id=" + id + ", fileSize=" + fileSize + ", year=" + year + ", dateAdded=" + dateAdded + ", genre=" + genre + '}';
     }
     
 }

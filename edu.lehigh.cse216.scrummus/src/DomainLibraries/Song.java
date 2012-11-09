@@ -18,6 +18,7 @@ public class Song extends Media {
     
     public Song(){
         super();
+        artist = null;
     }
     
     public Song(String name, int duration, int playCount, String filePath, String image, String encoding, String comment, int id, int fileSize, int year, Date dateAdded, String genre, String artist, String album, String lyrics, int albumNumber){

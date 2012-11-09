@@ -8,7 +8,7 @@ package DomainLibraries;
  *
  * @author zachdaniels
  */
-public class Song {
+public class Song extends Media {
     private String artist;
     private String album;
     private String lyrics;

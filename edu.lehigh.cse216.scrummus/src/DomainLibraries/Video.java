@@ -84,6 +84,6 @@ public class Video extends Media {
     
     @Override
     public String toString() {
-        return "Video{" + "quality=" + quality + ", type=" + type + ", author=" + author + ", season=" + season + ", episode=" + episode + '}';
+        return "Video{" + "quality=" + quality + ", type=" + type + ", author=" + author + ", season=" + season + ", episode=" + episode + "}";
     }
 } 

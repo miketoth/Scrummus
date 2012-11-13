@@ -65,7 +65,7 @@ public class Song extends Media {
     
     @Override
     public String toString() {
-        return "Song{" + "artist=" + artist + ", album=" + album + ", lyrics=" + lyrics + ", albumNumber=" + albumNumber + '}';
+        return "Song{" + "artist=" + artist + ", album=" + album + ", lyrics=" + lyrics + ", albumNumber=" + albumNumber + "}";
     }
 
 }

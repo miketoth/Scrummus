@@ -46,7 +46,7 @@ public class Library {
     
     @Override
     public String toString() {
-        return "Library{" + "name=" + name + ", size=" + size + '}';
+        return "Library{" + "name=" + name + ", size=" + size + "}";
     }
     
 }

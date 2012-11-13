@@ -50,6 +50,6 @@ public class MediaList{
     }
     
     public String toString() {
-        return "MediaList{" + "id=" + id + ", size=" + size + ", name=" + name + '}';
+        return "MediaList{" + "id=" + id + ", size=" + size + ", name=" + name + "}";
     }
 }

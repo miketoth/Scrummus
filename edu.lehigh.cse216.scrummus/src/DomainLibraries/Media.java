@@ -155,7 +155,7 @@ public abstract class Media {
     
     @Override
     public String toString() {
-        return "Media{" + "name=" + name + ", duration=" + duration + ", playCount=" + playCount + ", filePath=" + filePath + ", image=" + image + ", encoding=" + encoding + ", comment=" + comment + ", id=" + id + ", fileSize=" + fileSize + ", year=" + year + ", dateAdded=" + dateAdded + ", genre=" + genre + '}';
+        return "Media{" + "name=" + name + ", duration=" + duration + ", playCount=" + playCount + ", filePath=" + filePath + ", image=" + image + ", encoding=" + encoding + ", comment=" + comment + ", id=" + id + ", fileSize=" + fileSize + ", year=" + year + ", dateAdded=" + dateAdded + ", genre=" + genre + "}";
     }
     
 }
